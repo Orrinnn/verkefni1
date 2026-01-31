@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Félags og sálfræði</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <nav class="topbar">
+        <a href="./index.html">← Til baka</a>
+      </nav>
+
+      <header class="header">
+        <h1>Félags og sálfræði</h1>
+        <div class="scoreboard" aria-live="polite">
+          <span>Rétt: <strong id="correctCount">0</strong></span>
+          <span>Rangt: <strong id="wrongCount">0</strong></span>
+        </div>
+      </header>
+
+      <section class="questions" data-category="felags-og-salfraedi">
+        <article class="card" data-question>
+  <h2 class="q-title">Spurning 1</h2>
+  <p class="q-text">Hverskonar próf er Stanford-Binet próf</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Greindarpróf</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 2</h2>
+  <p class="q-text">Hvar er skrifstofa AA samtakanna í Reykjavík</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Tjarnargötu 20</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 3</h2>
+  <p class="q-text">Hver er talin vera fyrsta þroskasálfræðibókin</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Hugsun barnsins</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 4</h2>
+  <p class="q-text">Hvað heitir 2. þroskastig samkvæmt kenningum Freuds um þroska</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Þermistig</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 5</h2>
+  <p class="q-text">Hver er faðir tvíhyggjunnar</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Descartes</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 6</h2>
+  <p class="q-text">Hvaða félagsfræðingur kom með hugtakið MacDonaldization</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>George Ritzer</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 7</h2>
+  <p class="q-text">Hvaða frægi læknir og sálfræðingur lést 23. september 1939</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Sigmund Freud</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 8</h2>
+  <p class="q-text">Hvaða gerð af sálfræði er G. Stanley Hall talinn upphafsmaður</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Þroskasálfræðinnar</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 9</h2>
+  <p class="q-text">Hver opnaði fyrstu tilraunastofuna í sálfræði</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Wilhelm Max Wundt</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 10</h2>
+  <p class="q-text">Hvað heitir 1.stig kenninga Piagets um þroskun hugsunar/vitsmuna</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Skynhreyfistig</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 11</h2>
+  <p class="q-text">Hvað heitir 2.stig kenninga Piagets um þroskun hugsunar/vitsmuna</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Foraðgerðastig</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 12</h2>
+  <p class="q-text">Hvað heitir 3.stig kenninga Piagets um þroskun hugsunar/vitsmuna</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Hlutbundnar Aðgerðir</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 13</h2>
+  <p class="q-text">Hvað heitir 4.stig kenninga Piagets um þroskun hugsunar/vitsmuna</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Formlegar Aðgerðir</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 14</h2>
+  <p class="q-text">Hver skrifaði fyrstu þroskasálfræðibókina</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Wihlem Preyers</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 15</h2>
+  <p class="q-text">Hvað nefnist greindarþátturinn sem Spearman kom með árið 1904</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>G-þátturinn</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 16</h2>
+  <p class="q-text">Hvað áttu fyrstu greindarprófin að mæla</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Meðfædda hæfileika</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 17</h2>
+  <p class="q-text">Hvað kallast það þegar börn tileinka sér gildismat foreldra sinna og taka upp atferli þeirra</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Samsömun</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 18</h2>
+  <p class="q-text">Ericson taldi að um átta stig væru að ræða í kenningu sinni um...</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Félags- og sálþroskaskeið</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 19</h2>
+  <p class="q-text">Hver taldi huga barns vera óskrifað blað við fæðingu</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Wilhelm Preyer</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 20</h2>
+  <p class="q-text">Hvað stjórnar frumsjálfinu samkvæmt kenningum Freuds</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Vellíðunarlögmálið</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 21</h2>
+  <p class="q-text">Hvað stjórnar sjálfinu samkvæmt kenningum Freuds</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Veruleikalögmálið</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 22</h2>
+  <p class="q-text">Hvað stjórnar yfirsjálfinu samkvæmt kenningum Freuds</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Fullkomnunarlögmálið</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 23</h2>
+  <p class="q-text">Hvað er það sem reynir að bæla niður togstreitu á milli persónuleikakerfa Freuds</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Varnarháttur</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 24</h2>
+  <p class="q-text">Hvað heitir 1. þroskastig samkvæmt kenningum Freuds um þroska</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Munstig</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 25</h2>
+  <p class="q-text">Hvað heitir 3. þroskastig samkvæmt kenningum Freuds um þroska</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>völsastig</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 26</h2>
+  <p class="q-text">Hvað heitir 4.þroskastig samkvæmt kenningum Freuds um þroska</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Lægðarstig</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 27</h2>
+  <p class="q-text">Hvað heitir 5. þroskastig samkvæmt kenningum Freuds um þroska</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Kynþroskastig</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 28</h2>
+  <p class="q-text">Hver er faðir klassískrar skilyrðingar</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Ivan Pavlov</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 29</h2>
+  <p class="q-text">Hverrar þjóðar var Sigmund Freud</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Austurískur</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+      </section>
+    </main>
+
+    <script src="./scripts.js"></script>
+  </body>
+</html>

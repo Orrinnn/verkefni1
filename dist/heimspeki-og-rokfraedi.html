@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Heimspeki og rökfræði</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <nav class="topbar">
+        <a href="./index.html">← Til baka</a>
+      </nav>
+
+      <header class="header">
+        <h1>Heimspeki og rökfræði</h1>
+        <div class="scoreboard" aria-live="polite">
+          <span>Rétt: <strong id="correctCount">0</strong></span>
+          <span>Rangt: <strong id="wrongCount">0</strong></span>
+        </div>
+      </header>
+
+      <section class="questions" data-category="heimspeki-og-rokfraedi">
+        <article class="card" data-question>
+  <h2 class="q-title">Spurning 1</h2>
+  <p class="q-text">Hvað hét Immanuel Kant upprunalega</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Emanuel Kant</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 2</h2>
+  <p class="q-text">Hver er höfundur bókarinnar Af jarðlegum skilningi</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Atli Harðarson</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 3</h2>
+  <p class="q-text">Hver er af mörgum talinn fyrsti vestræni heimspekingurinn</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Þales</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 4</h2>
+  <p class="q-text">Hvaða heimspekingur skrifaði bókina Handan góðs og ills</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Nietzsche</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 5</h2>
+  <p class="q-text">Hvaða heimspekingur fæddist í Wuppertal þann 28. nóvember 1820</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Friedrich Engels</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 6</h2>
+  <p class="q-text">Ef þú reynir það, er það í sumum löndum refsivert, ef þér tekst það er það ekki refsivert, hvað er það</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Sjálfsmorð</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 7</h2>
+  <p class="q-text">Hver sagði hin frægu orð &quot;Guð er dauður&quot;</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Nietzsche</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 8</h2>
+  <p class="q-text">Þetta er spurningin</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Þetta er svarið</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 9</h2>
+  <p class="q-text">Hvers lenskur var hinn þekkti heimspekingur Immanuel Kant</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Prússneskur</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 10</h2>
+  <p class="q-text">Hver samdi bókin &quot;Die Grundlagen der Arithmetik&quot; eða &quot;Understöður reiknilistarinnar&quot;</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Gottlob Frege</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 11</h2>
+  <p class="q-text">Hver sagði: &quot;aðeins tvennt vekur lotningu hjá mér, stjörnuhiminninn yfir höfði mér og siðalögmálið í brjósti mér&quot;</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Immanuel Kant</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 12</h2>
+  <p class="q-text">Hver sagði: &quot;Ég hugsa, þess vegna er ég&quot; (Cognito ergo sum)</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Rene Descartes</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 13</h2>
+  <p class="q-text">Hver er það sem neitaði að flýja dauðarefsingu því hann vildi ekki rjúfa samning þann sem hann gekkst undir með því að vera borgari</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Sókrates</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 14</h2>
+  <p class="q-text">Hvaða heimspekingur var sendur af föður sínum til Manchester til þess að vinna</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Friedrich Engels</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 15</h2>
+  <p class="q-text">Hve marga leiki þarf hvítur minnst til að máta</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>þrjá</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 16</h2>
+  <p class="q-text">Hver er talinn vera upphafsmaður grískra vísinda</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Þales</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 17</h2>
+  <p class="q-text">Hver skrifaði ritið um Sálina (De Anima)</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Aristóteles</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 18</h2>
+  <p class="q-text">Hver skrifaði bókina Ríkið (Lýðveldið)</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Plató</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 19</h2>
+  <p class="q-text">Hvaða þekkti heimspekingur fæddist árið 1724</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Immanuel Kant</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 20</h2>
+  <p class="q-text">Hvaða þekkti heimspekingur lést 12. febrúar árið 1804</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Immanuel Kant</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 21</h2>
+  <p class="q-text">Hver er talinn vera síðasti merki heimspekingur upplýsingatímabilsins</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Immanuel Kant</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 22</h2>
+  <p class="q-text">Hvaða heimspekingur fæddist í Trier þann 5. maí 1818</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Karl Marx</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 23</h2>
+  <p class="q-text">Ef hann er hún, og hún er hann hvað er hann þá</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Hún</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 24</h2>
+  <p class="q-text">Við hvern er kennd sú stjórnmálaheimspeki að tilgangurinn helgi meðalið</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Macchiavelli</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 25</h2>
+  <p class="q-text">Ef allir slumbar eru klumpar og sumir klumpar tautar, hvað eru þá örugglega sumir slumbar</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Tautar</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+      </section>
+    </main>
+
+    <script src="./scripts.js"></script>
+  </body>
+</html>

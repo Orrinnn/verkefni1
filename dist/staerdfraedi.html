@@ -1,0 +1,1429 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stærðfræði</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <nav class="topbar">
+        <a href="./index.html">← Til baka</a>
+      </nav>
+
+      <header class="header">
+        <h1>Stærðfræði</h1>
+        <div class="scoreboard" aria-live="polite">
+          <span>Rétt: <strong id="correctCount">0</strong></span>
+          <span>Rangt: <strong id="wrongCount">0</strong></span>
+        </div>
+      </header>
+
+      <section class="questions" data-category="staerdfraedi">
+        <article class="card" data-question>
+  <h2 class="q-title">Spurning 1</h2>
+  <p class="q-text">Hvað er 7+7+7+6</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>27</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 2</h2>
+  <p class="q-text">Hvað er 7²</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>49</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 3</h2>
+  <p class="q-text">Hvað er 23*432*41*0*20</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>0</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 4</h2>
+  <p class="q-text">Hvað er 100-90+5-1</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>14</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 5</h2>
+  <p class="q-text">Hvað er 600*4</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>2400</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 6</h2>
+  <p class="q-text">Hvað eru margar gráður í hring</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>360</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 7</h2>
+  <p class="q-text">Hver er hornasumma þrýhyrnings</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>180</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 8</h2>
+  <p class="q-text">Hvað er 3 í öðru veldi</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>9</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 9</h2>
+  <p class="q-text">Hver er kvaðratrótin af 100</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>10</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 10</h2>
+  <p class="q-text">Hvað eru 5 fyrstu tölurnar í Pi</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>3,1415</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 11</h2>
+  <p class="q-text">Hver er lógaritminn af 100</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>2</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 12</h2>
+  <p class="q-text">Hversu mörg grömm vegur 1 lítri af vatni</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>1000</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 13</h2>
+  <p class="q-text">Hvað er 2*2*2*2</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>16</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 14</h2>
+  <p class="q-text">Hvað er (1+3+9-2)*10</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>110</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 15</h2>
+  <p class="q-text">Hvað er 300-300-300+2</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>-298</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 16</h2>
+  <p class="q-text">Hver er hornasuma þríhyrnings í gráðum</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>180</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 17</h2>
+  <p class="q-text">Hvaða talnamengi táknar R</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Rauntölur</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 18</h2>
+  <p class="q-text">Hvað kallast talan sem er fyrir neðan strik í brotum</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Nefnari</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 19</h2>
+  <p class="q-text">Hvað gefur 99+2+3+1+2+3+2+3</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>115</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 20</h2>
+  <p class="q-text">Hvað gefur 29324482-1+1</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>29324482</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 21</h2>
+  <p class="q-text">Hvað gefur 6-6-6+6-6+6</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>0</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 22</h2>
+  <p class="q-text">Hvað gefur 100/10/5</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>2</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 23</h2>
+  <p class="q-text">Hver er kvaðratrótin af 81</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>9</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 24</h2>
+  <p class="q-text">Hver er eina slétta prímtalan</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>2</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 25</h2>
+  <p class="q-text">Hvað eru átta sinnum sjö</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>56</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 26</h2>
+  <p class="q-text">Hvað eru tveir deilt með tveimur</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>1</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 27</h2>
+  <p class="q-text">Hvað gefur 150/3+12</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>62</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 28</h2>
+  <p class="q-text">Hvað eru margir klukkutímar í hálfum sólarhring</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>12</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 29</h2>
+  <p class="q-text">Hversu marga langalangafa og langalangömmur gæti maður átt ef þau væru öll á lífi</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>16</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 30</h2>
+  <p class="q-text">Hvað eru margir tugir í hundraði</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>10</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 31</h2>
+  <p class="q-text">Hvað er 100+100+55+7</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>262</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 32</h2>
+  <p class="q-text">Hversu mörg grömm eru í dekagrammi</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>10</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 33</h2>
+  <p class="q-text">Hvað er rétt horn margar gráður</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>90</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 34</h2>
+  <p class="q-text">Hvað tala er táknuð með C í rómverskum tölum</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>100</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 35</h2>
+  <p class="q-text">Hvað er 0 + 0</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>0</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 36</h2>
+  <p class="q-text">Hvernig er talan fimm í rómverskum tölum</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>V</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 37</h2>
+  <p class="q-text">Hvernig er talan tíu í rómverskum tölum</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>X</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 38</h2>
+  <p class="q-text">Hvernig er talan hundrað í rómverskum tölum</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>C</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 39</h2>
+  <p class="q-text">Hvernig er talan þúsund í rómverskum tölum</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>M</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 40</h2>
+  <p class="q-text">Hver er þversumma tölunnar 243</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>9</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 41</h2>
+  <p class="q-text">Hvað er 5,5 sinnum 3</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>16,5</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 42</h2>
+  <p class="q-text">Hvað er summan af 1+2+3+4+5+6+7+8+9+10</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>55</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 43</h2>
+  <p class="q-text">Hvaða talnamengi táknar Q</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Ræðar tölur</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 44</h2>
+  <p class="q-text">Hvernig er 2006 í rómverskum tölum</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>MMVI</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 45</h2>
+  <p class="q-text">Hversu margar tvinntölu lausnir gefur kvaðratrótin af -1</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Tvær</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 46</h2>
+  <p class="q-text">Hvað kallast sú vörpun sem flytur punktinn (x,y) í hnitakerfinu yfir í punktinn (x+a,y+b)</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Hliðrun</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 47</h2>
+  <p class="q-text">Í þríhyrningi ef eitt horn er 20° og annað 60°, hvað er þriðja hornið margar gráður</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>100</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 48</h2>
+  <p class="q-text">Hvar er hálf hringurinn stór í radíum</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>pi</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 49</h2>
+  <p class="q-text">Hver er kvaðratrótin af 144</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>12</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 50</h2>
+  <p class="q-text">Hvað gefur tan(-pi)</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>0</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 51</h2>
+  <p class="q-text">Hvað gefur sin(0)</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>0</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 52</h2>
+  <p class="q-text">Hvað gefur cos(0)</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>1</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 53</h2>
+  <p class="q-text">Hvað gefur cosh²(x)-sinh²(x)</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>1</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 54</h2>
+  <p class="q-text">Hvað gefur sin²(x)+cos²(x)</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>1</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 55</h2>
+  <p class="q-text">Hvert er minnsta mögulega gildi fallsins f(x)=cos(x)</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>-1</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 56</h2>
+  <p class="q-text">Hvert er stærsta mögulega gildi fallsins f(x)=cos(x)</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>1</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 57</h2>
+  <p class="q-text">Hver er þriðja rótin af 64</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>4</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 58</h2>
+  <p class="q-text">Í hvaða fræðigrein er fjallað um &quot;diffrun&quot;</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Stærðfræði</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 59</h2>
+  <p class="q-text">Hvað er (3+9+2)/2</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>7</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 60</h2>
+  <p class="q-text">Hver er summan af 299 og 99</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>398</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 61</h2>
+  <p class="q-text">Hvað er stærst að eftirtöldum brotum 1/2 , 1/9 , 2/3 eða 3/6</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>2/3</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 62</h2>
+  <p class="q-text">Hvað kallast lengd miðstrengs</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Þvermál</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 63</h2>
+  <p class="q-text">Hvað gefur 1+20+300+4000+50000</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>54321</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 64</h2>
+  <p class="q-text">Hvað gefur 700+23+1-800</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>-76</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 65</h2>
+  <p class="q-text">Hvað gefur 1+2+3+4+4+4+4</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>22</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 66</h2>
+  <p class="q-text">Hvað gefur 69+69</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>138</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 67</h2>
+  <p class="q-text">Hvað gefur 10+1000+100+10000+10</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>11120</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 68</h2>
+  <p class="q-text">Hvað gefur 220+12+13</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>245</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 69</h2>
+  <p class="q-text">Hvað gefur 1+2+3+4+5-6-7-8-9-10</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>-25</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 70</h2>
+  <p class="q-text">Hvað gera 1 - 0,99</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>0,01</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 71</h2>
+  <p class="q-text">Fyrir hvað stendur &quot;M&quot; í rómverskum tölum</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>1000</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 72</h2>
+  <p class="q-text">Ef Jón og Jóna eiga sex dætur og hver dóttir á einn bróður, hvað eru þá margir meðlimir í fjölskyldunni</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>9</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 73</h2>
+  <p class="q-text">Hvað er x í jöfnunni: 6x + 4 = 2x - 4</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>-2</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 74</h2>
+  <p class="q-text">Hvað er 12 sinnum 18</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>216</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 75</h2>
+  <p class="q-text">Hvað eru jöfnur á þessu formi kallaðar A²+B+C=0</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Annars stigs jöfnur</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 76</h2>
+  <p class="q-text">Hvað er 7*4</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>28</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 77</h2>
+  <p class="q-text">Hvað er 3*4</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>12</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 78</h2>
+  <p class="q-text">Hvað er 30*12</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>360</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 79</h2>
+  <p class="q-text">Hvað er 9/9+999</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>1000</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 80</h2>
+  <p class="q-text">Hversu oft þarfta að margfalda 4 með 5 til þess að fá 60</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>3</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 81</h2>
+  <p class="q-text">Hver er hornasumma ferhyrnings</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>360</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 82</h2>
+  <p class="q-text">Hver er kvaðratrótin af 4</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>2</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 83</h2>
+  <p class="q-text">Hvað er 7,5 mörg prósent af 100</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>7,5</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 84</h2>
+  <p class="q-text">Hvað er 11*11</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>121</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 85</h2>
+  <p class="q-text">Hve mörg grömm eru í dekagrammi</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Tíu</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 86</h2>
+  <p class="q-text">Hvað er hálfhringur margar gráður</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>180</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 87</h2>
+  <p class="q-text">Hvaða tvær heilu tölur ganga upp í 17 án afgangs</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>1 og 17</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 88</h2>
+  <p class="q-text">Hvað er 7+7+3</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>17</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 89</h2>
+  <p class="q-text">Hvað er 5,5 sinnum 10</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>55</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 90</h2>
+  <p class="q-text">Hvað er 60+70+5</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>135</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 91</h2>
+  <p class="q-text">Hvað er brotið 20/25 fullstytt</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>4/5</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 92</h2>
+  <p class="q-text">Í einni tylft ery 12 stykki. Hvað fást mörg pör af sokkum úr einni tylft sokka</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>6</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 93</h2>
+  <p class="q-text">Hvað gefur 3+24+25+2+4</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>58</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 94</h2>
+  <p class="q-text">Hvað eru þrír sinnum tveir</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>6</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 95</h2>
+  <p class="q-text">Hver er önnur fullkomna talan</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>28</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 96</h2>
+  <p class="q-text">Hvað eru 2+2</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>4</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 97</h2>
+  <p class="q-text">Hvernig er talan einn í rómverskum tölum</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>I</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 98</h2>
+  <p class="q-text">Hvernig er talan fimm hundruð í rómverskum tölum</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>D</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 99</h2>
+  <p class="q-text">Hvað er 15 sinnum 5</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>75</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 100</h2>
+  <p class="q-text">Við hvern er Lagrange-aðgerðin í stærðfræðigreiningu kennd við</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Joseph Louis Lagrange</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+      </section>
+    </main>
+
+    <script src="./scripts.js"></script>
+  </body>
+</html>

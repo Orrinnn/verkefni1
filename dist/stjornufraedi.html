@@ -1,0 +1,1429 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stjörnufræði</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <nav class="topbar">
+        <a href="./index.html">← Til baka</a>
+      </nav>
+
+      <header class="header">
+        <h1>Stjörnufræði</h1>
+        <div class="scoreboard" aria-live="polite">
+          <span>Rétt: <strong id="correctCount">0</strong></span>
+          <span>Rangt: <strong id="wrongCount">0</strong></span>
+        </div>
+      </header>
+
+      <section class="questions" data-category="stjornufraedi">
+        <article class="card" data-question>
+  <h2 class="q-title">Spurning 1</h2>
+  <p class="q-text">Hvað hefur Mars mörg tungl</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Tvö</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 2</h2>
+  <p class="q-text">Hvaða reikistjarna er oft kölluð &quot;Rauða Plánettan&quot;</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Mars</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 3</h2>
+  <p class="q-text">Hvaða reikistjarna í sólkerfinu okkar hefur mesta þyngdaraflið</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Júpíter</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 4</h2>
+  <p class="q-text">Hvaða reikistjarna í sólkerfinu okkar í líkust jörðinni að stærð og massa</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Venus</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 5</h2>
+  <p class="q-text">Hvaða þjóð byrjuði að nota orðið &quot;Astro&quot;</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Grikkir</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 6</h2>
+  <p class="q-text">Hvað eru margar reikistjörnunur í sólkerfinu okkar</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>8</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 7</h2>
+  <p class="q-text">Hvaða reikistjarna í sólkerfinu okkar er nálægast jörðinni</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Venus</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 8</h2>
+  <p class="q-text">Hver er eina reikistjarna í sólkerfinu okkar sem dregur ekki nafn sitt úr Rómverskum eða Grískum goðsögnum</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Jörðin</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 9</h2>
+  <p class="q-text">Á sporbaug um hvaða plánetu er tunglið Evrópa</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Júpíter</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 10</h2>
+  <p class="q-text">Hvaða pláneta er þriðja frá sólu</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Jörðin</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 11</h2>
+  <p class="q-text">Hvaða pláneta er níunda frá sólu</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Plútó</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 12</h2>
+  <p class="q-text">Hvaða pláneta er nefnd eftir rómverska ástarguðnum</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Venus</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 13</h2>
+  <p class="q-text">Hvaða stjörnumerki kemur á eftir Meyjunni</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Vogin</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 14</h2>
+  <p class="q-text">Hvaða stjörnumerki kemur næst á eftir Fiskunum</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Hrúturinn</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 15</h2>
+  <p class="q-text">Hvaða stjörnumerki kemur næst á eftir Tvíburanum</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Krabbinn</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 16</h2>
+  <p class="q-text">Hvaða stjörnumerki kemur næst á eftir Krabbanum</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Ljónið</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 17</h2>
+  <p class="q-text">Hvaða stjörnumerki kemur næst á eftir Ljóninu</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Meyjan</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 18</h2>
+  <p class="q-text">Hvaða stjörnumerki kemur næst á eftir Meyjunni</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Vogin</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 19</h2>
+  <p class="q-text">Hvaða stjörnumerki kemur næst á eftir Bogmanninum</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Steingeitin</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 20</h2>
+  <p class="q-text">Hver reikistjarnanna er fljótust að fara hring um sólu</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Merkúríus</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 21</h2>
+  <p class="q-text">Hvað heitir eina tungl Plútós</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Charon</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 22</h2>
+  <p class="q-text">Hver setti fram nýjar kenningar á 20. öld um svarthol og uppruna alheimsins</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Stephen Hawking</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 23</h2>
+  <p class="q-text">Hversu mörg tungl hefur Úranus</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>27</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 24</h2>
+  <p class="q-text">Hvar er loftsteinagígurinn Yuty</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Mars</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 25</h2>
+  <p class="q-text">Á hvaða reikistjörnu er fjallshryggurinn &quot;Antoniadi Dorsum&quot;</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Merkúríus</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 26</h2>
+  <p class="q-text">Á hvaða reikistjörnu hálendið &quot;Ishtar Terra&quot;</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Venus</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 27</h2>
+  <p class="q-text">Hvað er fjallið Olympus Mons á Mars margir kílómetrar að hæð</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>27</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 28</h2>
+  <p class="q-text">Á hvaða reikistjörnu er risavaxna gljúfrið &quot;Valles Marineris&quot;</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Mars</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 29</h2>
+  <p class="q-text">Hvaða reikistjörnu tilheyra tunglin Naiad og Thalassa</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Neptúnus</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 30</h2>
+  <p class="q-text">Hvaða reikistjörnu tilheyra tunglin Despina og Galatea</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Neptúnus</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 31</h2>
+  <p class="q-text">Hver sýndi fyrst fram á að alheimurinn væri að stækka</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Edwin Hubble</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 32</h2>
+  <p class="q-text">Í hvaða ofurklasa (supercluster) er Vetrarbrautin (Milky Way)</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Virgo</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 33</h2>
+  <p class="q-text">Hver skrifaði bókina De Revolutionibus Orbium Coelestium árið 1543</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Kóperníkus</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 34</h2>
+  <p class="q-text">Hvað eru rannsóknir á &quot;fljúgandi furðuhlutum&quot; (UFO) kallaðar á ensku</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Ufology</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 35</h2>
+  <p class="q-text">Á hvaða plánetu myndir þú finna &quot;Tharsis Montes&quot;</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Mars</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 36</h2>
+  <p class="q-text">Á hvaða reikistjörnu er &quot;Solis Lacus&quot; að finna</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Mars</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 37</h2>
+  <p class="q-text">Hvaða halastjarna kom svo nálægt Júpiter árið 1993 að hún brotnaði upp útaf rosalegu þyngdarafli Júpiters</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Shoemaker-Levy</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 38</h2>
+  <p class="q-text">Hvað átti Giotto ómannaða könnunarfarið að kanna</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Halastjörnu</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 39</h2>
+  <p class="q-text">Hversu margir dagar er einn dagur á tunglinu</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>27</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 40</h2>
+  <p class="q-text">Hversu margra milljarða ára gamallt er sólkerfið okkar talið vera</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>4,6</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 41</h2>
+  <p class="q-text">Triton er tungl hvaða reikistjörnu</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Neptúnus</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 42</h2>
+  <p class="q-text">Hvaða reikistjörnur í sólkerfinu okkar hafa engin tungl</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Merkúríus og Venus</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 43</h2>
+  <p class="q-text">Hvaða reikistjarna er nefnd eftir Rómverska Guði jarðræktar</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Saturn</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 44</h2>
+  <p class="q-text">Hvað er talið að falli saman til að mynda svarthol</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Stjarna</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 45</h2>
+  <p class="q-text">Hvað er stjarna sem er að fara springa kölluð</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Supernova</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 46</h2>
+  <p class="q-text">Hvernig eru köldustu stjörnurnar á litinn</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Rauðar</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 47</h2>
+  <p class="q-text">Hvaða reikistjarna í sólkerfinu okkar snýst hægast um sjálfan sig</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Venus</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 48</h2>
+  <p class="q-text">Hvenær er hægt að sjá dökku hlið tunglsins frá jörðunni</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Aldrei</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 49</h2>
+  <p class="q-text">Hvað heitir næsta þyrilvetrarbraut við okkar eigin</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Andrómeda</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 50</h2>
+  <p class="q-text">Hvaða reikistjarna hefur möndulsnúning í gagnstæða átt við möndulsnúning jarðarinnar</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Venus</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 51</h2>
+  <p class="q-text">Hvað ár fór könnunargeimfarið Pioneer 10 fram hjá reikistjörnunni Plútó</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>1987</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 52</h2>
+  <p class="q-text">Á hvaða plánetu er stærsta þekkta fjall sólkerfisins</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Mars</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 53</h2>
+  <p class="q-text">Hvað hét fyrsti gervihnötturinn</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Spútnik</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 54</h2>
+  <p class="q-text">Hvort er oftar sólmyrkvi eða tunglmyrkvi séð frá Íslandi</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Tunglmyrkvi</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 55</h2>
+  <p class="q-text">Hvað heitir geimfarið sem fór út úr sólkerfinu okkar árið 1983</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Pioneer</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 56</h2>
+  <p class="q-text">Hvaða pláneta er sjöunda frá sólu</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Úranus</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 57</h2>
+  <p class="q-text">Á hvaða plánetu er Olympus Mons, stærsta eldfjall sólkerfisins</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Mars</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 58</h2>
+  <p class="q-text">Hvaða pláneta var uppgötvuð 1930</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Plútó</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 59</h2>
+  <p class="q-text">Hver er eina pláneta sólkerfisins sem snýst rangsælis</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Venus</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 60</h2>
+  <p class="q-text">Hvaða reikistjörnu tilheyra tunglin Ariel og Umbriel</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Úranus</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 61</h2>
+  <p class="q-text">Hvaða reikistjörnu tilheyra tunglin Phobos og Deimos</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Mars</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 62</h2>
+  <p class="q-text">Hvað lýsir upp tunglið</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Sólin</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 63</h2>
+  <p class="q-text">Hvaða reikistjarna í sólkerfinu okkar er þyngri en allar aðrar reikistjörnur í sólkerfinu samanlagðar</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Júpíter</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 64</h2>
+  <p class="q-text">Á milli hvaða reikistjarna í sólkerfinu okkar er flesta loftsteinana að finna</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Mars og Júpíter</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 65</h2>
+  <p class="q-text">Úr hvaða efni eru hringir Satúrns aðallega úr</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Ís</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 66</h2>
+  <p class="q-text">Hvernig eru ský Venus á litin</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Gul</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 67</h2>
+  <p class="q-text">Hver er rauða reikistjarnan</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Mars</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 68</h2>
+  <p class="q-text">Hvert er innsta af tunglum júpiters</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Io</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 69</h2>
+  <p class="q-text">Á hvaða plánetu í okkar sólkerfi er stór rauður flekkur</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Júpiter</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 70</h2>
+  <p class="q-text">Hvað lengist um 0.001 sekúndu á hverri öld</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Dagurinn</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 71</h2>
+  <p class="q-text">Hvað heitir stjörnukerfið sem jörðin er í</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Sólkerfið</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 72</h2>
+  <p class="q-text">Hvað er talið vera í miðju vetrarbrautarinnar</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Svarthol</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 73</h2>
+  <p class="q-text">Hvaða ljósi endurkastar tunglið sem gerir það að verkum að við sjáum það</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Sólarljósi</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 74</h2>
+  <p class="q-text">Hvaða stjörnumerki er næst á undann Steingeitinni</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Bogamaður</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 75</h2>
+  <p class="q-text">Hvaða stjörnumerki kemur næst á eftir Hrútnum</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Naut</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 76</h2>
+  <p class="q-text">Hvaða stjörnumerki kemur næst á eftir Nautinu</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Tvíburi</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 77</h2>
+  <p class="q-text">Hvaða stjörnumerki kemur næst á eftir Sporðdrekanum</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Bogamaðurinn</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 78</h2>
+  <p class="q-text">Hversu hratt fer Merkúríus í kringum sólina(km/s)</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>47,3</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 79</h2>
+  <p class="q-text">Hvert er þvermál Mars í metum</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>6794</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 80</h2>
+  <p class="q-text">Hver er bjartasta stjarnan í &quot;Scorpius&quot; merkinu</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Antares</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 81</h2>
+  <p class="q-text">Hver gaf Andromeda kallheitið M31</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Charles Messier</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 82</h2>
+  <p class="q-text">Hver er nálægasta stjarna frá okkur</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Proxima Centauri</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 83</h2>
+  <p class="q-text">Eftir hvað mörg ár frá árinu 2000 mun Hale-Bopp koma aftur inn í sólkerfið okkar</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>2381</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 84</h2>
+  <p class="q-text">Hver uppgötaði Plútó árið 1930</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Clyde Tombaugh</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 85</h2>
+  <p class="q-text">Hvaða maður upphvötaði fyrstur Neptúnus</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Johann Galle</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 86</h2>
+  <p class="q-text">Hver upphvötaði fyrstur Úranus</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>William Herschel</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 87</h2>
+  <p class="q-text">Hver er talinn vera upphafsmaðurinn í því að nota útvarpssjónauka við stjörnufræðilegar athuganir</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Karl Jansky</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 88</h2>
+  <p class="q-text">Hvað heitir tungl Plútó</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Charon</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 89</h2>
+  <p class="q-text">Þegar Plútó fer á milli Neptúnús og Sólarinnar, í hversu mörg ár varir það</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>20</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 90</h2>
+  <p class="q-text">Hvað þýðir orðið &quot;planet&quot; úr Grísku</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Flakkari</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 91</h2>
+  <p class="q-text">Hvað heitir tunglið sem snýst í kring um Neptúnus í klukkuátt</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Triton</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 92</h2>
+  <p class="q-text">Hvað er QUASAR stytting á</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Quasi Stellar Radio Source</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 93</h2>
+  <p class="q-text">Hvaða stjarnfræðilega fyrirbæri var fyrst haldið að væri geimverur</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Tifstjörnur</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 94</h2>
+  <p class="q-text">Hvaða málmur er oft tengdur við loftsteininn sem er talinn hafa drepið risaeðlurnar</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Iridium</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 95</h2>
+  <p class="q-text">Hvaða stjörnufræðingur talaði oft um halastjörnur sem &quot;Skítuga snjóbolta&quot;</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Fred Whipple</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 96</h2>
+  <p class="q-text">Hvað kallast alþjóðlegu samtökin á ensku sem eru tileinkuð vörnum gegn halastjörnum og loftsteinum</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Spaceguard Foundation</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 97</h2>
+  <p class="q-text">Hvaða heitir litla tunglið sem deilir sporbaugi jarðarinnar</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Cruithne</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 98</h2>
+  <p class="q-text">Hvaða Englendingur smíðaði fyrst &quot;endurspeglandi&quot; kíkir</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>John Gregory</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 99</h2>
+  <p class="q-text">Hver er talinn vera faðir útvarps stjörnufræði</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Karl Jansky</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 100</h2>
+  <p class="q-text">Hvað heitir algengasta loftsteina sturta sem á sér stað í kringum 12. Ágúst ár hvert</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Perseids</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+      </section>
+    </main>
+
+    <script src="./scripts.js"></script>
+  </body>
+</html>

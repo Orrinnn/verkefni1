@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tölvuleikir</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <nav class="topbar">
+        <a href="./index.html">← Til baka</a>
+      </nav>
+
+      <header class="header">
+        <h1>Tölvuleikir</h1>
+        <div class="scoreboard" aria-live="polite">
+          <span>Rétt: <strong id="correctCount">0</strong></span>
+          <span>Rangt: <strong id="wrongCount">0</strong></span>
+        </div>
+      </header>
+
+      <section class="questions" data-category="tolvuleikir">
+        <article class="card" data-question>
+  <h2 class="q-title">Spurning 1</h2>
+  <p class="q-text">Hvernig er Pac Man á litinn</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Gulur</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 2</h2>
+  <p class="q-text">Hvaða fyrirtæki gefur út hina vinsælu tölvuleikjaseríu Castlevania</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Konami</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 3</h2>
+  <p class="q-text">Hverjir sigruðu Skjálfta 4 í Counter Strike árið 2003</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Ice a</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 4</h2>
+  <p class="q-text">Hvað hét fyrsti tölvuleikurinn</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Tennis for Two</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 5</h2>
+  <p class="q-text">Í hvaða aukahlutapakka sem fylgir Half-Life Generations leikur maður öryggisvörð</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Blue-Shift</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 6</h2>
+  <p class="q-text">Hvað stendur CPL fyrir</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>The Cyberathlete Professional League</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 7</h2>
+  <p class="q-text">Hver framleiðir MOHAA leikina (Medal of Honor Allied Assault)</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>EA Games</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 8</h2>
+  <p class="q-text">Hvaða fyrirtæki framleiðir &quot;FIFA&quot; leikinn</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>EA Sports</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 9</h2>
+  <p class="q-text">Hvaða tvö fyrirtæki gáfu út hinn margfræga tölvuleik &quot;Unreal Tournament&quot; árið 1998</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Epic Games og Digital Extremes</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 10</h2>
+  <p class="q-text">Hvaða fyrirtæki bjó til tölvuleikina &quot;Doom&quot; og &quot;Quake&quot;</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>id Software</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 11</h2>
+  <p class="q-text">Í hvaða tölvuleik kemur persónan &quot;J.C. Denton&quot; fyrir</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Deus Ex</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 12</h2>
+  <p class="q-text">Hvaða fyrirtæki gerði leikinn EVE-Online</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>CCP</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 13</h2>
+  <p class="q-text">Fyrir hvað stendur skammstöfunin CTF í tölvuleikjum</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Capture the Flag</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 14</h2>
+  <p class="q-text">Fyrir hvað stendur skammstöfunin DM í tölvuleikjum</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>DeathMatch</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 15</h2>
+  <p class="q-text">Hvað heitir bróðir Mario, hins feita pípara úr Nintendo-tölvuleikjunum</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Luigi</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+<article class="card" data-question>
+  <h2 class="q-title">Spurning 16</h2>
+  <p class="q-text">Hvaða fyrirtæki gerði tölvuleikinn Half-Life</p>
+
+  <div class="answer-block">
+    <button type="button" class="btn" data-show-answer>Sýna svar</button>
+    <p class="answer" data-answer hidden>Valve</p>
+  </div>
+
+  <div class="mark-block">
+    <button type="button" class="btn btn-good" data-mark="correct" disabled>Rétt</button>
+    <button type="button" class="btn btn-bad" data-mark="wrong" disabled>Rangt</button>
+  </div>
+</article>
+      </section>
+    </main>
+
+    <script src="./scripts.js"></script>
+  </body>
+</html>
